@@ -35,12 +35,7 @@ const Navbar = () => {
 			<div className="container py-3 md:py-2">
 				<div className="flex justify-between items-center">
 					{/* Logo section */}
-					<a
-						target="_blank"
-						rel="noreferrer"
-						href="https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ?sub_confirmation=1"
-						className="flex items-center gap-3"
-					>
+					<a target="_blank" rel="noreferrer" href="" className="flex items-center gap-3">
 						<img src={Logo} alt="" className="w-5" />
 						<span className="text-2xl sm:text-3xl font-semibold">Digital agency</span>
 					</a>
@@ -73,7 +68,7 @@ const Navbar = () => {
 					</div>
 				</div>
 			</div>
-			<ResponsiveMenu showMenu={showMenu} />
+			<ResponsiveMenu showMenu={showMenu} toggleMenu={toggleMenu} />
 		</div>
 	);
 };
