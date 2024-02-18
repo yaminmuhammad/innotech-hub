@@ -29,15 +29,15 @@ const Navbar = () => {
 	};
 	return (
 		<div
-			className="relative z-10 w-full dark:bg-black dark:text-white duration-300
+			className="fixed z-10 w-full rounded-lg bg-white dark:bg-black dark:text-white duration-300
     "
 		>
 			<div className="container py-3 md:py-2">
 				<div className="flex justify-between items-center">
 					{/* Logo section */}
-					<a target="_blank" rel="noreferrer" href="" className="flex items-center gap-3">
+					<a href="/" className="flex items-center gap-3">
 						<img src={Logo} alt="" className="w-5" />
-						<span className="text-2xl sm:text-3xl font-semibold">Digital agency</span>
+						<span className="text-2xl sm:text-3xl font-semibold">InnoTech HUB</span>
 					</a>
 					{/* Desktop view Navigation */}
 					<nav className="hidden md:block">
