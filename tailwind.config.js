@@ -5,7 +5,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				inter: ["Inter", "sans-serif"],
+				sans: ["Helvetica", "Arial", "sans-serif"],
 			},
 			colors: {
 				primary: "#6153CD",
